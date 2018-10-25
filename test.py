@@ -10,4 +10,7 @@ def hello():
 @app.route("/fact")
 def rand():
     foo = ['its beautiful', 'its hot', 'its good', 'its calm', 'its peaceful']
-    return random.choice(foo);
+    return random.choice(foo)
+
+if __name__ == '__main__':
+   app.run()
