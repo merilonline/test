@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     return "Hello there"
 
-@app.route("fact")
+@app.route("/fact")
 def rand():
     foo = ['its beautiful', 'its hot', 'its good', 'its calm', 'its peaceful']
     return random.choice(foo);
